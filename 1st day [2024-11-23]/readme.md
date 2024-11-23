@@ -12,7 +12,7 @@
 
 - **MySQL 8 offers significant improvements**: This version is optimized for handling massive datasets and addressing new use cases in the digital age, such as analyzing data from social networks, e-commerce, and banking transactions.
 
-### 1.[What is a Relational Database (RDBMS)?](./What is a Relational Database (RDBMS)?.md)
+### 1.[What is a Relational Database (RDBMS)?](<What is a Relational Database (RDBMS).md>)
 
 **RDBMS is the foundation**: Relational Database Management Systems (RDBMS) rely on SQL to manage structured data organized in tables with relationships between them.
 
@@ -180,7 +180,7 @@ mysql> show engines;
 
 - **New features enhance functionality**: MySQL 8 introduces a range of new features (as shown in the diagram), including improvements to indexing, character sets, [GIS support](https://dev.mysql.com/doc/refman/8.0/en/spatial-types.html), and more. These enhancements offer compelling reasons to upgrade.
 
-![Improved features in MySQL 8]("./Improved features in MySQL 8.png")
+![Improved features in MySQL 8](<./Improved features in MySQL 8.png>)
 
 ### 1.[Transactional data dictionary](https://dev.mysql.com/doc/refman/8.0/en/data-dictionary-transactional-storage.html)
 
@@ -502,7 +502,7 @@ There are a few operators that are not permitted in partition expressions such a
 
 - **Focus on actionable information**: MySQL's features and capabilities are geared towards enabling businesses to not just store data, but to analyze it, understand it, and use it to drive meaningful actions and achieve their goals.
 
-![Improved features in MySQL 8]("./Use cases of MySQL.png")
+![Improved features in MySQL 8](<./Use cases of MySQL.png>)
 
 ### 1.Social media
 
