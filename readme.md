@@ -1,162 +1,327 @@
 # Based on this book: [MySQL 8 Administrators Guide](<./MySQL 8 Administrators Guide.pdf>)
 
-## Phase 1: Mastering MySQL 8 Fundamentals (6 weeks)
+## [Phase 1: Introduction to MySQL 8](<./Phase 1/readme.md>)
 
-**Objective:** Become a proficient MySQL 8 user, capable of performing basic database operations.
+- Key Results
 
-### Week 1
+  - Explain the importance of MySQL 8 in today's technology landscape.
 
-- **Topic:** Introduction to MySQL 8
-- **Activities:**
-  - Read Chapter 1 of the book, focusing on the history and evolution of MySQL.
-  - Research different MySQL versions and their key features.
-  - Explore the MySQL community and resources available online (forums, documentation, tutorials).
-  - **Task:** Write a summary of the evolution of MySQL and its key features in version 8.
+  - Identify the different versions of MySQL 8 and their suitability for various needs.
 
-### Week 2
+  - Describe the core features of MySQL 8 and their impact on system performance.
 
-- **Topic:** Installing and setting up MySQL 8
-- **Activities:**
-  - Follow Chapter 2 to install MySQL 8 on your system.
-  - Explore different installation methods and choose the one that suits your needs.
-  - Configure MySQL server settings and familiarize yourself with the directory structure.
-  - **Task:** Document the installation process with screenshots and explanations. Try installing MySQL on a different operating system (if possible).
+- Key Questions
 
-### Week 3
+  - What is MySQL 8 and why is it important in today's information technology landscape?
 
-- **Topic:** Introduction to MySQL Workbench
-- **Activities:**
-  - Explore MySQL Workbench interface and its features (connections, query editor, schema designer).
-  - Connect to your MySQL server instance using Workbench.
-  - Practice writing and executing basic SQL queries (SELECT, INSERT, UPDATE, DELETE).
-  - **Task:** Create a simple database with a few tables using the Workbench GUI.
+  - How do the different versions of MySQL 8 differ and which version is right for your needs?
 
-### Week 4
+  - What are the core features of MySQL 8 and how do they affect system performance?
 
-- **Topic:** Working with the MySQL command-line client
-- **Activities:**
-  - Learn to connect to the MySQL server using the command-line client.
-  - Practice executing SQL statements and managing databases from the command line.
-  - Explore different command-line options and commands.
-  - **Task:** Replicate the database creation task from Week 3 using only the command-line client.
+  - What are the notable improvements in MySQL 8 over previous versions and what benefits do they bring to users?
 
-### Week 5
+  - What are the limitations of MySQL 8 and how to overcome or mitigate their impact?
 
-- **Topic:** Deep dive into Data Types and DDL
-- **Activities:**
-  - Study Chapter 4, focusing on different data types in MySQL 8 (numeric, string, date/time).
-  - Practice choosing appropriate data types for different scenarios.
-  - Master DDL statements: CREATE DATABASE, CREATE TABLE, ALTER TABLE, DROP TABLE, etc.
-  - **Task:** Design a database schema for a blog, choosing appropriate data types for each column.
+  - What are some real-world use cases of MySQL 8 and why is it a popular choice for web applications?
 
-### Week 6
+## [Phase 2: Installing and Upgrading MySQL 8](<./Phase 2/readme.md>)
 
-- **Topic:** Data Manipulation with DML
-- **Activities:**
-  - Master DML statements: INSERT, UPDATE, DELETE, SELECT.
-  - Practice inserting, updating, and deleting data in your blog database.
-  - Learn about WHERE clause for filtering data.
-  - **Task:** Populate your blog database with sample data and practice retrieving specific records using different WHERE clause conditions.
+- Key Results
 
-## Phase 2: Developing MySQL 8 Administration Skills (7 weeks)
+  - Install MySQL 8 without encountering any errors.
 
-**Objective:** Enhance MySQL 8 administration skills, including partitioning, replication, security, and performance optimization.
+  - Upgrade MySQL 8 from an older version.
 
-### Week 7
+  - Configure MySQL 8 after installation.
 
-- **Topic:** Understanding Storage Engines
-- **Activities:**
-  - Study Chapter 6, focusing on InnoDB and MyISAM storage engines.
-  - Learn about the differences between these engines and their use cases.
-  - Explore other storage engines available in MySQL 8.
-  - **Task:** Experiment with creating tables using different storage engines and compare their performance.
+- Key Questions
 
-### Week 8
+  - What is the difference between the MySQL 8 installation process on Windows and Linux?
 
-- **Topic:** Indexing for Performance
-- **Activities:**
-  - Study Chapter 7, focusing on the importance of indexing in MySQL.
-  - Learn about different types of indexes (B-tree, hash).
-  - Practice creating and managing indexes using CREATE INDEX and DROP INDEX.
-  - **Task:** Analyze query performance in your blog database and add appropriate indexes to improve speed.
+  - How to verify the integrity of the MySQL 8 installation package before proceeding with the installation?
 
-### Week 9
+  - What are the necessary steps after installing MySQL 8 to ensure the system works stably?
 
-- **Topic:** Introduction to Replication
-- **Activities:**
-  - Study Chapter 8, focusing on the concepts of replication in MySQL.
-  - Learn about different replication topologies (Master-Slave, Master-Master).
-  - Set up a simple Master-Slave replication environment.
-  - **Task:** Configure a single-node replication setup for your blog database.
+  - What are some methods to upgrade MySQL 8 and how to choose the appropriate method for your system?
 
-### Week 10
+  - When is it necessary to downgrade MySQL 8 and how is the downgrade process performed to avoid data loss?
 
-- **Topic:** Advanced Replication Configurations
-- **Activities:**
-  - Explore different replication options and configurations.
-  - Learn about replication filtering and delayed replication.
-  - **Task:** Implement replication filtering to replicate only specific tables from your blog database.
+  - What are some important notes when installing and upgrading MySQL 8 to ensure safety and efficiency?
 
-### Week 11
+## [Phase 3: Using MySQL 8 Programs and Utilities](<./Phase 3/readme.md>)
 
-- **Topic:** MySQL 8 Security Fundamentals
-- **Activities:**
-  - Study Chapter 11, focusing on security threats and best practices.
-  - Learn about user accounts, privileges, and access control.
-  - Implement strong passwords and access control for your MySQL server.
-  - **Task:** Secure your blog database by creating user accounts with appropriate privileges.
+- Key Results
 
-### Week 12
+  - Master the use of basic MySQL 8 command line programs.
 
-- **Topic:** Advanced Security and Encryption
-- **Activities:**
-  - Explore advanced security features like encryption and SSL/TLS connections.
-  - Learn about auditing and logging for security monitoring.
-  - **Task:** Implement data encryption for sensitive information in your blog database.
+  - Create and edit MySQL 8 option files.
 
-### Week 13
+  - Connect to the MySQL 8 server using client programs.
 
-- **Topic:** Query Optimization Techniques
-- **Activities:**
-  - Study Chapter 12, focusing on query optimization techniques.
-  - Learn how to use EXPLAIN plan to analyze query performance.
-  - Practice writing efficient SQL queries.
-  - **Task:** Optimize complex queries in your blog database and document the improvements achieved.
+- Key Questions
 
-## Phase 3: Advanced MySQL 8 and Application (4 weeks)
+  - What are the command line programs in MySQL 8 and what are they used for?
 
-**Objective:** Become a MySQL 8 expert, capable of scaling, troubleshooting, and applying knowledge to real-world scenarios.
+  - What is the structure of option files in MySQL 8 and how to change option files?
 
-### Week 14
+  - What is the role of the mysqld program in MySQL 8 and what are its startup options?
 
-- **Topic:** Introduction to Scaling and High Availability
-- **Activities:**
-  - Study Chapter 10, focusing on scalability and high availability solutions.
-  - Learn about different scaling approaches (vertical, horizontal).
-  - Explore MySQL Cluster and its features.
-  - **Task:** Research different high availability solutions for MySQL and compare their advantages and disadvantages.
+  - What are the functions of MySQL 8 client programs such as mysql, mysqladmin, mysqldump?
 
-### Week 15
+  - What are the functions of MySQL 8 administrative programs such as myisamchk, mysqlbinlog?
 
-- **Topic:** Implementing MySQL Cluster
-- **Activities:**
-  - Set up a basic MySQL Cluster environment.
-  - Explore different cluster configurations and data node management.
-  - **Task:** Implement a simple MySQL Cluster with two data nodes and one management node.
+  - What are the environment variables that affect the operation of MySQL 8?
 
-### Week 16
+## [Phase 4: Data Types in MySQL 8](<./Phase 4/readme.md>)
 
-- **Topic:** Troubleshooting and Performance Monitoring
-- **Activities:**
-  - Study Chapter 15, focusing on common MySQL problems and troubleshooting techniques.
-  - Learn how to analyze error logs and identify the root cause of problems.
-  - Explore performance monitoring tools and techniques.
-  - **Task:** Simulate a database failure scenario and practice troubleshooting and recovery.
+- Key Results
 
-### Week 17
+  - List and classify the data types in MySQL 8.
 
-- **Topic:** Real-world Application and Project
-- **Activities:**
-  - Apply your MySQL knowledge to a real-world project (e.g., design and implement a database for a small business).
-  - Focus on integrating MySQL with other technologies (e.g., web applications, programming languages).
-  - **Task:** Complete your chosen project and document the design, implementation, and challenges faced.
+  - Use the correct data type for specific cases.
+
+  - Understand the storage requirements of each data type.
+
+- Key Questions
+
+  - What data types are supported by MySQL 8 and how to choose the appropriate data type for each specific case?
+
+  - What are the numeric data types in MySQL 8 and how to use them to store numeric values?
+
+  - What are the characteristics of date and time data types in MySQL 8 and how to use them to store time information?
+
+  - What are the string data types in MySQL 8 and how to use them to store text?
+
+  - How is the JSON data type used in MySQL 8 and what are its advantages?
+
+  - What are the storage requirements for different data types in MySQL 8?
+
+## [Phase 5: MySQL 8 Database Management](<./Phase 5/readme.md>)
+
+- Key Results
+
+  - Configure and manage MySQL 8 server.
+
+  - Work with the system database.
+
+  - Manage server logs.
+
+- Key Questions
+
+  - What is the role of MySQL 8 server administration and how do different SQL modes affect server operation?
+
+  - What is the data directory structure in MySQL 8 and what is the role of the system database in managing information?
+
+  - How to run multiple MySQL 8 instances on the same machine?
+
+  - How to manage components and plugins in MySQL 8?
+
+  - What are the caching and globalization techniques in MySQL 8?
+
+  - What are the types of server logs in MySQL 8 and how to use them to monitor system activity?
+
+## [Phase 6: MySQL 8 Storage Engines](<./Phase 6/readme.md>)
+
+- Key Results
+
+  - Differentiate between the types of storage engines in MySQL 8.
+
+  - Explain the InnoDB storage engine in detail.
+
+  - Perform the basic steps to create a custom storage engine.
+
+- Key Questions
+
+  - What is the storage engine architecture in MySQL 8 and why is it important?
+
+  - What are the different types of storage engines in MySQL 8 and when are they used?
+
+  - What are the characteristics of the InnoDB storage engine and why is it often used as the default engine?
+
+  - How to create a custom storage engine in MySQL 8?
+
+  - What are the steps to create source files, handle installation, and implement basic functionality for a custom storage engine?
+
+  - Where to refer to advanced documentation on custom storage engines in MySQL 8?
+
+## [Phase 7: Indexing in MySQL 8](<./Phase 7/readme.md>)
+
+- Key Results
+
+  - Explain the concept and importance of indexing.
+
+  - Differentiate and use different index types.
+
+  - Optimize indexes using the optimizer.
+
+- Key Questions
+
+  - What is indexing in MySQL 8 and why is it important for query performance?
+
+  - What are the different index types in MySQL 8 and how to use them?
+
+  - How are spatial indexes and full-text indexes used in MySQL 8?
+
+  - What is the difference between B-Tree and Hash index structures in MySQL 8?
+
+  - How to use the optimizer for indexing in MySQL 8?
+
+  - What are invisible indexes and descending indexes in MySQL 8?
+
+## [Phase 8: Replication in MySQL 8](<./Phase 8/readme.md>)
+
+- Key Results
+
+  - Configure and implement master-slave replication.
+
+  - Configure and implement group replication.
+
+  - Monitor and troubleshoot replication.
+
+- Key Questions
+
+  - What is replication in MySQL 8 and why is it important?
+
+  - What are the different replication types in MySQL 8?
+
+  - How to configure master-slave replication in MySQL 8?
+
+  - How to implement replication in MySQL 8?
+
+  - What is group replication in MySQL 8 and how is it different from master-slave replication?
+
+  - What are the different replication solutions in MySQL 8?
+
+## [Phase 9: Partitioning in MySQL 8](<./Phase 9/readme.md>)
+
+- Key Results
+
+  - Explain the concept and benefits of partitioning.
+
+  - Differentiate between different partitioning types.
+
+  - Create and manage partitions.
+
+- Key Questions
+
+  - What is partitioning in MySQL 8?
+
+  - What are the different partition types in MySQL 8?
+
+  - How to manage partitions in MySQL 8?
+
+  - What is partition selection and pruning in MySQL 8?
+
+  - What are the restrictions and limitations in MySQL 8 partitioning?
+
+## [Phase 10: Scalability and High Availability in MySQL 8](<./Phase 10/readme.md>)
+
+- Key Results
+
+  - Explain the concepts of scalability and high availability.
+
+  - Describe different high availability solutions in MySQL 8.
+
+  - Understand the role of InnoDB Cluster in high availability.
+
+- Key Questions
+
+  - What is scalability and high availability in MySQL 8?
+
+  - What are the different high availability solutions in MySQL 8?
+
+  - How does InnoDB Cluster contribute to high availability?
+
+  - What are the benefits and limitations of using InnoDB Cluster?
+
+  - How to set up and manage an InnoDB Cluster?
+
+## [Phase 11: Security in MySQL 8](<./Phase 11/readme.md>)
+
+- Key Results
+
+  - Identify common security risks in MySQL 8.
+
+  - Implement access control mechanisms.
+
+  - Configure connection encryption and manage security plugins.
+
+- Key Questions
+
+  - What are the common security risks in MySQL 8 and how to prevent them?
+
+  - How does access control work in MySQL 8 and what are the steps to set up effective access control?
+
+  - How to manage user accounts in MySQL 8 to ensure system security?
+
+  - How is connection encryption implemented in MySQL 8 and why is it important?
+
+  - What are the security plugins in MySQL 8 and how to use them to enhance system security?
+
+  - How to securely connect to MySQL 8 remotely?
+
+## [Phase 12: Optimization in MySQL 8](<./Phase 12/readme.md>)
+
+- Key Results
+
+  - Explain the importance of optimization in MySQL 8.
+
+  - Identify and address performance bottlenecks.
+
+  - Utilize performance schema and sys schema for optimization.
+
+- Key Questions
+
+  - What are the key factors that affect MySQL 8 performance?
+
+  - How to identify and address performance bottlenecks in MySQL 8?
+
+  - How to optimize schema and query design for better performance?
+
+  - How to effectively use indexing for performance optimization?
+
+  - What are the different caching mechanisms in MySQL 8 and how do they improve performance?
+
+  - How to use performance schema and sys schema for performance analysis and optimization?
+
+## [Phase 13: Extending MySQL 8](<./Phase 13/readme.md>)
+
+- Key Results
+
+  - Explain the concept of extending MySQL 8.
+
+  - Add new functions to MySQL 8.
+
+  - Utilize plugins to extend MySQL 8 capabilities.
+
+- Key Questions
+
+  - What are the different ways to extend MySQL 8 functionality?
+
+  - How to add new functions to MySQL 8 using user-defined functions (UDFs)?
+
+  - How to use plugins to extend MySQL 8 capabilities?
+
+  - What are some examples of useful MySQL 8 plugins?
+
+## [Phase 14: Troubleshooting MySQL 8](<./Phase 14/readme.md>)
+
+- Key Results
+
+  - Identify common problems in MySQL 8.
+
+  - Apply effective troubleshooting techniques.
+
+  - Resolve common MySQL 8 issues.
+
+- Key Questions
+
+  - What are the common problems encountered in MySQL 8?
+
+  - What are the effective troubleshooting techniques for MySQL 8?
+
+  - How to use error logs and other diagnostic tools for troubleshooting?
+
+  - How to troubleshoot replication and InnoDB Cluster issues?
+
+  - Where to find additional resources for troubleshooting MySQL 8?
